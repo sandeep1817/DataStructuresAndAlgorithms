@@ -1,0 +1,27 @@
+package com.algorithms.arrays;
+
+import java.util.Scanner;
+
+public class SecondLargestElementInArray {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int sizeOfArray = sc.nextInt();
+		int[] a = new int[sizeOfArray];
+		for(int i=0;i<sizeOfArray;i++){
+			a[i] = sc.nextInt();
+		}
+		int secondMax=0;
+		int max = 0;
+		for(int i=0;i<sizeOfArray-1;i++){
+			if(a[i]>a[i+1]){
+				max = a[i+1];
+				secondMax = a[i];
+			}
+			if( >max){
+				secondMax = a[i];
+			}
+		}
+	}
+
+}

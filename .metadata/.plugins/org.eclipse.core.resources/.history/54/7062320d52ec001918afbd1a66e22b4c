@@ -1,0 +1,38 @@
+package com.algorithms.arrays;
+
+import java.util.Scanner;
+
+public class PrimeNumbersInArray {
+
+	public static void main(String[] args) {
+		int count = 0;
+		Scanner sc = new Scanner(System.in);
+		int sizeOfArray = sc.nextInt();
+		int[] a = new int[sizeOfArray];
+		int[] prime = new int[sizeOfArray];
+		for(int i=0;i<sizeOfArray;i++){
+			a[i] = sc.nextInt();
+		}
+		for(int j=0;j<sizeOfArray;j++){
+			if(a[j]==0 || a[j]==1){
+				
+			}
+			else{
+				int r = a[j]/2;
+				for(int k=2;k<=r;k++){
+					if(a[j]%k==0){
+						break;
+					}
+					else{
+						prime[count] = a[j];
+						count++;
+					}
+				}
+			}
+		}
+		for(int c:prime){
+			System.out.println("Prime Numbers are "+c);
+		}
+	}
+
+}

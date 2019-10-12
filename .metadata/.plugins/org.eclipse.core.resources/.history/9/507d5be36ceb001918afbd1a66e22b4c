@@ -1,0 +1,10 @@
+package com.algorithms.arrays;
+
+public class PrintAlternateElementsArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
