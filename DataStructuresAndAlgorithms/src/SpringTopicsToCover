@@ -1,0 +1,25 @@
+Path Variable to 
+
+How to write url endpoints
+Where to write Get,Post,Put
+
+Beans & Dependency injection in Spring.
+Entities, repos for DBs
+Lombok
+
+Topics to cover for 3 yrs experience:
+1. Core -Java
+2. Spring complete
+3. How to handele DB
+4. How to handle Hibernate
+5. How to handle cache
+
+
+
+Spring
+* Core - Spring Beans / Dependency Injection / Aspect Oriented Programming (advanced)
+* MVC - Views / Templates / Render 
+* Rest - API / Controller / Services
+* Data - Hibernate Entities / Repositories / Relations / SQL
+* Security - Auth Principal / Authentication / Authorization / Access Control Lists(ACL) / Role based Access Control (RBAC)
+* Cloud - Eureka / Config / Gateway
